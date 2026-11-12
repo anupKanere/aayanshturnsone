@@ -21,7 +21,7 @@ Crafted in an authentic, prestigious **Imperial Wine Lacquer & Champagne Gold** 
 - **📸 Cherished Family Photo Gallery**:
   - **Prince Aayansh Centerpiece**: Displayed in an ornate Japanese gold-bezel circular frame with cherry blossom accents.
   - **With Papa Santosh**: Luxury gold-leaf framed portrait celebrating the father-son bond.
-  - **With Mamma Shravani**: Luxury gold-leaf framed portrait celebrating maternal love.
+  - **With Mumma Shravani**: Luxury gold-leaf framed portrait celebrating maternal love.
 
 - **🎬 Memories in Motion (Video Reel Player)**:
   - Cinema-grade video player showcasing Aayansh's 1st year video reel (`AayanshReel.mp4`).
@@ -51,7 +51,7 @@ Crafted in an authentic, prestigious **Imperial Wine Lacquer & Champagne Gold** 
 All uploaded media files are organized in `public/`:
 - `public/images/aayansh.jpeg` — Hero portrait of Aayansh turning ONE.
 - `public/images/aayansh-with-dad.jpeg` — Portrait with Papa Santosh.
-- `public/images/aayansh-with-mom.jpeg` — Portrait with Mamma Shravani.
+- `public/images/aayansh-with-mom.jpeg` — Portrait with Mumma Shravani.
 - `public/video/aayansh-reel.mp4` — Video reel of Aayansh's first year memories.
 - `public/audio/birthday-piano.mp3` — Gentle piano instrumental soundtrack.
 

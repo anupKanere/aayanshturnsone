@@ -49,8 +49,8 @@ const MomentsGallery: React.FC = () => {
     },
     {
       src: eventDetails.photoWithMom,
-      alt: "Aayansh with Mamma Shravani",
-      title: "With Mamma Shravani",
+      alt: "Aayansh with Mumma Shravani",
+      title: "With Mumma Shravani",
       subtitle: "Gentlest hugs & unconditional love",
     },
   ];
@@ -102,9 +102,8 @@ const MomentsGallery: React.FC = () => {
           {photos.map((item, index) => (
             <motion.div
               key={item.title}
-              className={`gold-border-card group p-3.5 sm:p-4 rounded-3xl transition-all duration-500 ${
-                item.featured ? "md:-translate-y-4 shadow-[0_0_40px_rgba(212,175,55,0.35)]" : ""
-              }`}
+              className={`gold-border-card group p-3.5 sm:p-4 rounded-3xl transition-all duration-500 ${item.featured ? "md:-translate-y-4 shadow-[0_0_40px_rgba(212,175,55,0.35)]" : ""
+                }`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
