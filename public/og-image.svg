@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140508"/>
+      <stop offset="50%" stop-color="#2A0E15"/>
+      <stop offset="100%" stop-color="#140508"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FAF5EC"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#ECD599"/>
+      <stop offset="100%" stop-color="#B08B23"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FAF5EC" stop-opacity="0.5"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D9453B" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#C83737" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#2A0E15" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Rising Sun behind Fuji -->
+  <circle cx="600" cy="380" r="190" fill="url(#sun)"/>
+  <circle cx="600" cy="380" r="110" fill="#C83737" fill-opacity="0.35"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="80" r="1.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="250" cy="120" r="1" fill="#D4AF37" opacity="0.4"/>
+  <circle cx="400" cy="60" r="1.5" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="800" cy="70" r="1.5" fill="#D4AF37" opacity="0.4"/>
+  <circle cx="950" cy="110" r="1" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="1100" cy="80" r="1.5" fill="#D4AF37" opacity="0.5"/>
+  
+  <!-- Mount Fuji -->
+  <path d="M300 630 L600 280 L900 630 Z" fill="#1E0A0F" opacity="0.85"/>
+  <path d="M520 380 L600 280 L680 380 Q640 395 600 388 Q560 395 520 380Z" fill="url(#snow)"/>
+  
+  <!-- Torii Gate -->
+  <rect x="565" y="470" width="8" height="130" rx="1" fill="#C83737"/>
+  <rect x="627" y="470" width="8" height="130" rx="1" fill="#C83737"/>
+  <path d="M545 465 Q600 445 655 465 L655 478 Q600 458 545 478 Z" fill="#C83737"/>
+  <rect x="555" y="482" width="90" height="6" rx="1" fill="#C83737"/>
+  
+  <!-- Sakura blossoms -->
+  <circle cx="120" cy="220" r="14" fill="#EAA8B6" opacity="0.5"/>
+  <circle cx="100" cy="250" r="10" fill="#EAA8B6" opacity="0.4"/>
+  <circle cx="150" cy="240" r="12" fill="#EAA8B6" opacity="0.45"/>
+  <circle cx="1080" cy="210" r="14" fill="#EAA8B6" opacity="0.5"/>
+  <circle cx="1100" cy="240" r="10" fill="#EAA8B6" opacity="0.4"/>
+  <circle cx="1060" cy="230" r="12" fill="#EAA8B6" opacity="0.45"/>
+  
+  <!-- Crown -->
+  <path d="M540 120 L550 90 L565 110 L600 75 L635 110 L650 90 L660 120 Z" fill="url(#gold)" stroke="#B08B23" stroke-width="1"/>
+  <circle cx="600" cy="75" r="5" fill="#FAF5EC"/>
+  <circle cx="550" cy="90" r="3.5" fill="#C83737"/>
+  <circle cx="650" cy="90" r="3.5" fill="#C83737"/>
+  
+  <!-- "You're Cordially Invited" -->
+  <text x="600" y="165" font-family="Georgia, serif" font-size="24" fill="#D4AF37" text-anchor="middle" font-style="italic">You're Cordially Invited</text>
+  
+  <!-- "A LITTLE PRINCE TURNS" -->
+  <text x="600" y="215" font-family="Georgia, serif" font-size="20" fill="#FAF5EC" text-anchor="middle" letter-spacing="6">A LITTLE PRINCE TURNS</text>
+  
+  <!-- "ONE" -->
+  <text x="600" y="325" font-family="Georgia, serif" font-size="110" font-weight="bold" fill="url(#gold)" text-anchor="middle">ONE</text>
+  
+  <!-- "Celebrating Aayansh's First Birthday" -->
+  <text x="600" y="380" font-family="Georgia, serif" font-size="26" fill="#FAF5EC" text-anchor="middle" font-weight="500">Celebrating Aayansh's First Birthday</text>
+  
+  <!-- Date -->
+  <text x="600" y="420" font-family="Georgia, serif" font-size="18" fill="#D4AF37" text-anchor="middle">Friday, 13 November 2026 · 7:00 PM</text>
+  
+  <!-- Gold border -->
+  <rect x="20" y="20" width="1160" height="590" rx="8" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.4"/>
+  <rect x="30" y="30" width="1140" height="570" rx="6" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.2"/>
+</svg>
