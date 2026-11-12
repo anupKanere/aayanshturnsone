@@ -18,9 +18,9 @@ export const eventDetails = {
 
   // Media assets
   photoUrl: "/images/aayansh.jpeg",
+  familyPhoto: "/images/aayansh-with-family.jpeg",
   photoWithDad: "/images/aayansh-with-dad.jpeg",
   photoWithMom: "/images/aayansh-with-mom.jpeg",
-  reelVideoUrl: "/video/aayansh-reel.mp4",
   musicUrl: "/audio/birthday-piano.mp3",
 };
 
