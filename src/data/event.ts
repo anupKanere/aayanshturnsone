@@ -20,14 +20,7 @@ export const eventDetails = {
   photoUrl: "/images/aayansh.jpeg",
   photoWithDad: "/images/aayansh-with-dad.jpeg",
   photoWithMom: "/images/aayansh-with-mom.jpeg",
-  /**
-   * Video Reel URL:
-   * Note for Cloudflare Pages: Cloudflare Pages has a 25MB limit per file.
-   * To stream the 441MB reel on Cloudflare, upload it to Cloudflare R2 (free 10GB)
-   * or Cloudflare Stream/YouTube and paste the public link here.
-   * If left as "", the page gracefully displays the 3 family portraits.
-   */
-  reelVideoUrl: "",
+  reelVideoUrl: "/video/aayansh-reel.mp4",
   musicUrl: "/audio/birthday-piano.mp3",
 };
 

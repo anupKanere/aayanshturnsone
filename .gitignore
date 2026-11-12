@@ -32,8 +32,7 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
-# Large video file (exceeds GitHub 100MB and Cloudflare Pages 25MB limits)
-# Host on Cloudflare Stream, R2, YouTube, or compress below 25MB
-*.mp4
-public/video/*.mp4
+# Heavy uncompressed raw media in root (441MB exceeds GitHub 100MB limit)
+/AayanshReel.mp4
+
 
